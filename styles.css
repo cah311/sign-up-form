@@ -1,0 +1,26 @@
+#imageBanner {
+    position: relative;
+    display: flex;
+    left: -10px;
+    top: -10px;
+    width: 80vh;
+    height: auto;
+    border: 2px solid black;
+}
+
+#bkContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+#bkgImg {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+#logoContainer {
+    position: absolute;
+}
