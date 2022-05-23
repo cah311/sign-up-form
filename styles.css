@@ -72,7 +72,7 @@ body {
 
 #formHeading {
     color: yellow;
-    padding: 4.5rem 2rem;
+    padding: 3.5rem 2rem;
     font-size: 1.15rem;
 }
 
@@ -106,13 +106,18 @@ body {
     flex-wrap: wrap;
 }
 
+.formColumns {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .formRow input[type='text'],
 .formRow  input[type='email'],
 .formRow  input[type='tel'] {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
     border-radius: 3px;
-    width: 100%;
+    width: 25rem;
     padding: 7px;
     font-size: 14px;
 }
