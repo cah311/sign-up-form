@@ -12,6 +12,8 @@ html {
 
 body {
     display: flex;
+    
+    
 }
 
 #imageBanner {
@@ -21,7 +23,7 @@ body {
     top: -10px;
     width: clamp(400px, 43vw, 55vw);
     height: 100vh;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 #bkgContainer {
@@ -31,7 +33,7 @@ body {
     /* display: flex; */
     height: 100%;
     width: clamp(400px, 43vw, 55vw);
-    border: 2px solid red;
+
     /* z-index: 2; */
 }
 
@@ -52,7 +54,7 @@ body {
     height: clamp(60px, 12vw, 22vw);
     z-index: -1;
     background-color: rgba(101, 99, 128, 0.63);
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 }
 
 #logo {
@@ -62,13 +64,15 @@ body {
 }
 
 #formContainer {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     top: 0;
     width: 65%;
-    height: 100vh;
+    height: 98.8vh;
     margin: -0.5rem;
     
 }
+
+
 
 #formHeading {
     color: yellow;
@@ -78,17 +82,20 @@ body {
 
 #inputContainer {
     display: flex;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     margin-top: 1rem;
     color: yellow;
     font-weight: 1000;
+    
 
 }
 
 #inputSection {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: rgba(30, 30, 36, .85);
     color: white;
+    position: relative;
+    left: -2px;
 }
 
 #inputSection h3 {
@@ -165,7 +172,11 @@ body {
 
 }
 
-@media only screen and (max-width: 700px) {
+#userLink {
+    color: red;
+}
+
+@media only screen and (max-width: 900px) {
     /* #imageBanner {
         width: 0%;
     }
@@ -202,7 +213,7 @@ body {
         width: 100%;
         height: clamp(60px, 12vw, 22vw);;
         background-color: rgba(101, 99, 128, 0.63);
-        border: 3px solid pink;
+        /* border: 3px solid pink; */
     }
 }
 
