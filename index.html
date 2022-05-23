@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="imageBanner">
@@ -17,24 +18,44 @@
     </div>
     <div id="formContainer">
         <form method="post">
-            <h2>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to get started.</h2>
-            <h2>You know you want to</h2>
+            <div id="formHeading">
+                <h2>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi! Sign up now to get started.</h2>
+                <h2>You know you want to</h2>
+            </div>
             <section id="inputSection">
                 <h3>Let's do this!</h3>
                 <div id="inputContainer">
-                    <div id="leftInputs">
-                        <ul>
-                            <li><label for="first-name">First Name</label><input type="text"></li>
-                            <li><label for="email">Email</label><input type="email"></li>
-                            <li><label for="password">Password</label><input type="text"></li>
-                        </ul>
+                    <div class="formColumns">
+                       
+                        <div class="formRow">
+                            <label for="first-name">First Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="formRow">
+                            <label for="email">Email</label>
+                            <input type="email">
+                        </div>
+                        <div class="formRow">
+                            <label for="password">Password</label>
+                            <input type="text">
+                        </div>
+                    
                     </div>
-                    <div id="rightInputs">
-                        <ul>
-                            <li><label for="last-name">Last Name</label><input type="text"></li>
-                            <li><label for="phone-number">Phone Number</label><input type="tel"></li>
-                            <li><label for="confirm-pass">Confirm Password</label><input type="text"></li>
-                        </ul>
+                    <div class="formColumns">
+                      
+                        <div class="formRow">
+                            <label for="last-name">Last Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="formRow">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="tel">
+                        </div>
+                        <div class="formRow">
+                            <label for="confirm-pass">Confirm Password</label>
+                            <input type="text">
+                        </div>
+                        
                     </div>
                     
                 </div>

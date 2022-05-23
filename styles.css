@@ -1,7 +1,13 @@
+:root {
+    font-family: 'Changa', sans-serif;
+    font-weight: 1000;
+    color: yellow;
+}
+
 html {    
     background-color: rgba(30, 30, 36, 0.75);
-  
     background-size: cover;
+    
 }
 
 body {
@@ -64,10 +70,19 @@ body {
     
 }
 
+#formHeading {
+    color: yellow;
+    padding: 4.5rem 2rem;
+    font-size: 1.15rem;
+}
+
 #inputContainer {
     display: flex;
     border: 2px solid yellow;
-    
+    margin-top: 1rem;
+    color: yellow;
+    font-weight: 1000;
+
 }
 
 #inputSection {
@@ -75,6 +90,36 @@ body {
     background-color: rgba(30, 30, 36, .85);
     color: white;
 }
+
+#inputSection h3 {
+    font-size: 1.4rem;
+    color: yellow;
+    font-weight: 1000;
+    padding-left: 2rem;
+}
+
+.formRow {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formRow input[type='text'],
+.formRow  input[type='email'],
+.formRow  input[type='tel'] {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.formRow label {
+    margin-bottom: 7px;
+  }
 
 @media only screen and (max-width: 700px) {
     /* #imageBanner {
@@ -109,7 +154,6 @@ body {
 
     #logoContainer {
         position: relative;
-        
         top: 0;
         width: 100%;
         height: clamp(60px, 12vw, 22vw);;
