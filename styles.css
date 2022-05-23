@@ -48,18 +48,23 @@ body {
 
 #logoContainer {
     position: relative;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     top: 8rem;
     width: 100%;
-    height: clamp(60px, 12vw, 22vw);
+    height: clamp(60px, 12.2vw, 23vw);
     z-index: -1;
     background-color: rgba(101, 99, 128, 0.63);
     /* border: 3px solid pink; */
 }
 
 #logo {
-    height: clamp(60px, 12vw, 22vw);
-
+    height: clamp(60px, 12vw, 21vw);
+    position: relative;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    
     
 }
 
@@ -125,7 +130,7 @@ body {
 .formRow  input[type='tel'] {
     background-color: #FFFFFF;
     border: 1px solid #D6D9DC;
-    border-radius: 3px;
+    border-radius: 8px;
     width: 20vw;
     padding: 7px;
     font-size: 14px;
@@ -152,7 +157,7 @@ body {
     background-color: rgba(30, 30, 36, .85);
   
     border: 3px solid yellow;
-    border-radius: 4px;
+    border-radius: 10px;
   
     padding: 10px 40px;
     cursor: pointer;
