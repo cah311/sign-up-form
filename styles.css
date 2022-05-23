@@ -137,6 +137,34 @@ body {
     padding: 2rem;
 }
 
+#buttonContainer button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: yellow;
+    background-color: rgba(30, 30, 36, .85);
+  
+    border: 3px solid yellow;
+    border-radius: 4px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+}
+  
+#buttonContainer button:hover {
+    color:rgba(30, 30, 36, .85);
+    background-color: yellow;
+    border: 3px solid white;
+
+}
+  
+#buttonContainer button:active {
+    color:rgba(30, 30, 36, .85);
+    background-color: yellow;
+    border: 3px solid white;
+
+}
+
 @media only screen and (max-width: 700px) {
     /* #imageBanner {
         width: 0%;
