@@ -76,6 +76,7 @@ body {
     /* border: 3px solid red; */
     top: 0;
     width: 65%;
+    /* min-width: 35vw; */
     height: 100vh;
     margin-left: -0.65rem;
     margin-right: -1rem;
@@ -190,7 +191,7 @@ body {
     color: red;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     /* #imageBanner {
         width: 0%;
     }
@@ -225,9 +226,34 @@ body {
         position: relative;
         top: 0;
         width: 100%;
-        height: clamp(60px, 12vw, 22vw);;
+        height: clamp(60px, 18vw, 35vw);
         background-color: rgba(101, 99, 128, 0.63);
         /* border: 3px solid pink; */
     }
+
+    #formContainer {
+        border: 3px solid red;
+        margin-top: 2rem;
+        width: 100%;
+    
+    }
+    
+    
+    
+    #formHeading {
+       
+    }
+
+    #inputContainer {
+        width: auto;
+        border: 3px solid pink;
+    
+    }
+    
+    #inputSection {
+        border: 3px solid red
+
+    }
+
 }
 
